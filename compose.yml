@@ -1,0 +1,22 @@
+services:
+  jupyter:
+    build:
+      context: .
+    env_file:
+    - path: ./env
+      required: false
+    ports:
+      - "8888:8888"
+    command: >
+      jupyter lab --ip=${JUPYTER_IP:-0.0.0.0} --no-browser --allow-root 
+      --NotebookApp.token='${JUPYTER_TOKEN:-}' --NotebookApp.password='${JUPYTER_PASSWORD:-}' 
+      --ServerApp.disable_check_xsrf=True
+    volumes:
+      - ./work:/home/jovyan/work
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
