@@ -5,7 +5,7 @@ EXPOSE 8888
 COPY requirements.txt .
 
 # Install required packages and run the notebook
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install jupyterlab
 
 WORKDIR /home/jovyan/work
