@@ -11,8 +11,14 @@ x-base_jupyter: &base_jupyter
     - ./work:/home/jovyan/work
 
 services:
+  cpu:
+    <<: *base_jupyter
+    profiles:
+      - cpu
   cuda:
     <<: *base_jupyter
+    profiles:
+      - cuda
     deploy:
       resources:
         reservations:
@@ -20,10 +26,3 @@ services:
             - driver: nvidia
               count: all
               capabilities: [gpu]
-    profiles:
-      - cuda
-
-  cpu:
-    <<: *base_jupyter
-    profiles:
-      - cpu

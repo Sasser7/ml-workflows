@@ -9,4 +9,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install jupyterlab
 
 WORKDIR /home/jovyan/work
+
+# Run default if command not specified
 CMD [ "jupyter", "lab" ]
