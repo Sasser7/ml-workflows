@@ -1,6 +1,7 @@
 x-base_jupyter: &base_jupyter
   build:
     context: .
+  image: jupyter
   ports:
     - "${PORT:-8888}:8888"
   command: >
