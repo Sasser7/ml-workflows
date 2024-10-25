@@ -10,6 +10,7 @@ x-base_jupyter: &base_jupyter
     --ServerApp.disable_check_xsrf=True
   volumes:
     - ./work:/home/jovyan/work
+    - ./fonts:/home/jovyan/fonts
 
 services:
   cpu:
