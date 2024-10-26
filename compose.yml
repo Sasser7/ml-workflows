@@ -6,7 +6,7 @@ x-base_jupyter: &base_jupyter
     - "${PORT:-8888}:8888"
   command: >
     jupyter lab --ip=${JUPYTER_IP:-0.0.0.0} --no-browser --allow-root 
-    --NotebookApp.token='${JUPYTER_TOKEN:-}' --NotebookApp.password='${JUPYTER_PASSWORD:-}' 
+    --ServerApp.token='${JUPYTER_TOKEN:-}' --ServerApp.password='${JUPYTER_PASSWORD:-}' 
     --ServerApp.disable_check_xsrf=True
   volumes:
     - ./work:/home/jovyan/work
