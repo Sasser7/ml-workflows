@@ -1,5 +1,5 @@
 jupyterlab
-torch
-numpy
-pandas
 matplotlib
+pytorch
+pandas
+numpy
