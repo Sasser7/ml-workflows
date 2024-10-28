@@ -1,3 +1,4 @@
+safetensors
 jupyterlab
 matplotlib
 pandas
