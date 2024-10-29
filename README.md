@@ -1,7 +1,4 @@
-<div align=center>
-
-# 🤖 Machine Learning Workflows ⚒️
-</div>
+<h1 align="center">🤖 Machine Learning Workflows ⚒️</h1>
 
 Welcome to my curated compilation of machine learning workflows! Currently, this compilation focuses on **Linear Regression** workflows, utilizing various powerful tools and packages.
 
