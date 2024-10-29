@@ -9,9 +9,9 @@ x-base_jupyter: &base_jupyter
     --NotebookApp.token='${JUPYTER_TOKEN:-}' --NotebookApp.password='${JUPYTER_PASSWORD:-}' 
     --ServerApp.disable_check_xsrf=True
   volumes:
-    - ./work:/home/jovyan/work
     - ./fonts:/home/jovyan/fonts
-    - ./output:/home/jovyan/output
+    - ./models:/home/jovyan/models
+    - ./workflows:/home/jovyan/workflows
 
 services:
   cpu:

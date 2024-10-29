@@ -7,7 +7,7 @@ COPY requirements.txt .
 # Install required packages and run the notebook
 RUN pip install --no-cache-dir -r requirements.txt
 
-WORKDIR /home/jovyan/work
+WORKDIR /home/jovyan/workflows
 
 # Run default if command not specified
 CMD [ "jupyter", "lab" ]
