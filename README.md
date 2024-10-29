@@ -5,15 +5,6 @@ Welcome to my curated compilation of machine learning workflows utilizing variou
 ## 🛠️ Current Workflows: 
 - **[Linear regression](workflows/linear-regression.ipynb)** 📈: A model that estimates the linear relationship between a scalar response and one or more explanatory variables.
 
-$$ Y = m X + b $$
-
-|Symbol|Description|
-|-|-|
-|$Y$|Result|
-|$m$|Weights|
-|$X$|Function argument|
-|$b$|Bias|
-
 ### 📦 Tools & Packages:
 - **[JupyterLab](https://jupyter.org/)** 🖥️: A web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. A modular design invites extensions to expand and enrich functionality.
 - **[Matplotlib](https://matplotlib.org/)** 📊: A comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
