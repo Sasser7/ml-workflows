@@ -1,5 +1,4 @@
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap" rel="stylesheet">
-<div align=center style="font-family: 'Space Grotesk'">
+<div align=center>
 
 # 🤖 Machine Learning Workflows ⚒️
 </div>
