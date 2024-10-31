@@ -4,6 +4,7 @@ Welcome to my curated compilation of machine learning workflows utilizing variou
 
 ## 🛠️ Current Workflows: 
 - **[Linear regression](workflows/linear-regression.ipynb)** 📈: A model that estimates the linear relationship between a scalar response and one or more explanatory variables.
+- **[Binary classification](workflows/binary-classification.ipynb)** 📊: The task of classifying the elements of a set into one of two groups.
 
 ### 📦 Tools & Packages:
 - **[JupyterLab](https://jupyter.org/)** 🖥️: A web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. A modular design invites extensions to expand and enrich functionality.
